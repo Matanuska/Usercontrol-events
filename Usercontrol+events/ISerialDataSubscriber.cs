@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Usercontrol_events
 {
-    interface ISerialData
+    interface ISerialDataSubscriber
     {
         void serialDataReceived(string incr,string msg);
     }

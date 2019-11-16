@@ -37,6 +37,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
+            this.userControl21 = new Usercontrol_events.UserControl2();
             this.SuspendLayout();
             // 
             // button1
@@ -58,21 +59,21 @@
             // 
             // userControl13
             // 
-            this.userControl13.Location = new System.Drawing.Point(519, 156);
+            this.userControl13.Location = new System.Drawing.Point(425, 160);
             this.userControl13.Name = "userControl13";
             this.userControl13.Size = new System.Drawing.Size(154, 156);
             this.userControl13.TabIndex = 3;
             // 
             // userControl12
             // 
-            this.userControl12.Location = new System.Drawing.Point(313, 156);
+            this.userControl12.Location = new System.Drawing.Point(219, 160);
             this.userControl12.Name = "userControl12";
             this.userControl12.Size = new System.Drawing.Size(153, 156);
             this.userControl12.TabIndex = 2;
             // 
             // userControl11
             // 
-            this.userControl11.Location = new System.Drawing.Point(118, 156);
+            this.userControl11.Location = new System.Drawing.Point(24, 160);
             this.userControl11.Name = "userControl11";
             this.userControl11.Size = new System.Drawing.Size(151, 156);
             this.userControl11.TabIndex = 1;
@@ -101,11 +102,19 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "label1";
             // 
+            // userControl21
+            // 
+            this.userControl21.Location = new System.Drawing.Point(618, 166);
+            this.userControl21.Name = "userControl21";
+            this.userControl21.Size = new System.Drawing.Size(150, 150);
+            this.userControl21.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.userControl21);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox1);
@@ -130,6 +139,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label1;
+        private UserControl2 userControl21;
     }
 }
 

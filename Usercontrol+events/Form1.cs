@@ -31,7 +31,7 @@ namespace Usercontrol_events
 
         private void button2_Click(object sender, EventArgs e)
         {
-            foreach (UserControl uc in this.Controls.OfType<UserControl1>())
+            foreach (UserControl uc in this.Controls.OfType<ISerialDataSubscriber>())
             {
                 (uc as UserControl1).serialDataReceived("down", textBox1.Text);
             }

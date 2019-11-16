@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Usercontrol_events
 {
-    public partial class UserControl1 : UserControl, ISerialData
+    public partial class UserControl1 : UserControl, ISerialDataSubscriber
     {
         public UserControl1()
         {
