@@ -26,7 +26,7 @@ namespace Usercontrol_events
         public void serialDataReceived(string inc,string msg)
         {
             if (msg == textBox1.Text)
-            {
+            {                
                 if (inc == "up")
                 {
                     numericUpDown1.Value = numericUpDown1.Value + 1;
