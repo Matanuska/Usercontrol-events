@@ -31,13 +31,13 @@
             this.components = new System.ComponentModel.Container();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.userControl13 = new Usercontrol_events.UserControl1();
-            this.userControl12 = new Usercontrol_events.UserControl1();
-            this.userControl11 = new Usercontrol_events.UserControl1();
             this.button2 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.userControl21 = new Usercontrol_events.UserControl2();
+            this.userControl13 = new Usercontrol_events.UserControl1();
+            this.userControl12 = new Usercontrol_events.UserControl1();
+            this.userControl11 = new Usercontrol_events.UserControl1();
             this.SuspendLayout();
             // 
             // button1
@@ -56,27 +56,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 4;
-            // 
-            // userControl13
-            // 
-            this.userControl13.Location = new System.Drawing.Point(425, 160);
-            this.userControl13.Name = "userControl13";
-            this.userControl13.Size = new System.Drawing.Size(154, 156);
-            this.userControl13.TabIndex = 3;
-            // 
-            // userControl12
-            // 
-            this.userControl12.Location = new System.Drawing.Point(219, 160);
-            this.userControl12.Name = "userControl12";
-            this.userControl12.Size = new System.Drawing.Size(153, 156);
-            this.userControl12.TabIndex = 2;
-            // 
-            // userControl11
-            // 
-            this.userControl11.Location = new System.Drawing.Point(24, 160);
-            this.userControl11.Name = "userControl11";
-            this.userControl11.Size = new System.Drawing.Size(151, 156);
-            this.userControl11.TabIndex = 1;
             // 
             // button2
             // 
@@ -104,10 +83,31 @@
             // 
             // userControl21
             // 
-            this.userControl21.Location = new System.Drawing.Point(618, 166);
+            this.userControl21.Location = new System.Drawing.Point(621, 175);
             this.userControl21.Name = "userControl21";
             this.userControl21.Size = new System.Drawing.Size(150, 150);
             this.userControl21.TabIndex = 7;
+            // 
+            // userControl13
+            // 
+            this.userControl13.Location = new System.Drawing.Point(425, 160);
+            this.userControl13.Name = "userControl13";
+            this.userControl13.Size = new System.Drawing.Size(154, 156);
+            this.userControl13.TabIndex = 3;
+            // 
+            // userControl12
+            // 
+            this.userControl12.Location = new System.Drawing.Point(219, 160);
+            this.userControl12.Name = "userControl12";
+            this.userControl12.Size = new System.Drawing.Size(153, 156);
+            this.userControl12.TabIndex = 2;
+            // 
+            // userControl11
+            // 
+            this.userControl11.Location = new System.Drawing.Point(24, 160);
+            this.userControl11.Name = "userControl11";
+            this.userControl11.Size = new System.Drawing.Size(151, 156);
+            this.userControl11.TabIndex = 1;
             // 
             // Form1
             // 
